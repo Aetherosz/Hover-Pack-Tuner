@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"SemVersion": "1.0.0",
+	"GameVersion": ">=520140",
+	"FriendlyName": "Hover Pack Tuner",
+	"Description": "Change the Hover Pack's speed, acceleration, range, power use and use distance. With SirDigby's Progressive Hover Pack installed, each Mk gets its own values.",
+	"Category": "Modding",
+	"CreatedBy": "Aetherosz",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "HoverPackTuner",
+			"Type": "Runtime",
+			"LoadingPhase": "PostDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.12.1"
+		},
+		{
+			"Name": "ProgressiveHoverPack",
+			"Enabled": true,
+			"Optional": true,
+			"SemVersion": "^1.1.0"
+		}
+	]
+}
